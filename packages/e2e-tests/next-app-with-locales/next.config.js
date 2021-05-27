@@ -74,7 +74,7 @@ module.exports = {
       },
       {
         source: "/path-rewrite/:slug",
-        destination: "/ssr-page"
+        destination: "/ssr-page/:slug"
       },
       {
         source: "/wildcard-rewrite/:slug*",
